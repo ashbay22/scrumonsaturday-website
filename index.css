@@ -79,6 +79,7 @@ header{
     font-family: 'Cormorant Garamond', serif;
     line-height: 3rem;
     letter-spacing: 0.7rem;
+    font-weight:700;
 }
 .main-content span{
     font-size:2rem;
