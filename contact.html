@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <title>Scrum on saturday | Contact</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+  $('.navbar_toggle').click(function() {
+    $('.navbar-menu').toggleClass('active');
+  });
+});
+</script>
+</head>
+<body>
+        <!-- Header -->
+        <div class="header">
+        
+            <!-- logo -->
+            <div class="logo">
+                <img class="logo" src="scrum-logo.png" alt="Scrum Logo">
+            </div>
+            <!--navbar-->
+            <div class="navlinks">
+                <ul class="navbar-menu">
+                    <li><a href="scrum.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="scrum.html#download">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+            </div>
+            
+            <div >
+                    <a href="scrum.html#steps" class="register"><i class="fas fa-user"></i>  Register</a>
+            </div>
+            <div class="navbar_toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <!-- Contact -->
+    <main>
+        <section>
+			<h2 class="cont">Contact Us</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" rows="5" required></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+        <section>
+            <h3>Let's Keep in Touch!</h3>
+            <p>We would love to hear from you! We are always here to answer questions and discuss options.</p>
+            <br>
+            <p><span>Phone:</span> +234 704 214 3187</p>
+            <br>
+            <p><span>Email:</span> training@scrumonsaturday.com</p>
+        </section>
+    </main>
+     <!-- Footer -->
+     <div class="footer">
+        <div class="foot_logo"><img src="scrum-logo.png" alt=""></div>
+        <div class="company">
+            <ul>
+                <li>COMPANY</li>
+                <li>About</li>
+                <li>Our Services</li>
+                <li>Contact</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+        <div class="support">
+            <ul>
+                <li>SUPPORT</li>
+                <li>Partners</li>
+                <li>Sponsors</li>
+            </ul>
+        </div>
+        <div class="subscribe">
+            <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+            <!-- <p>Please subscribe to get more updates</p> -->
+            <input type="email" placeholder="Enter your mail" class="mail"> 
+            <p class="sub">Subscribe</p>
+        </div>
+        
+    </div>
+</body>
+</html>
+</body>
+</html>
