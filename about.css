@@ -228,3 +228,11 @@ section h2 {
 
     }
     }
+@media only screen and (max-width: 360px){
+   .register{
+      margin-left: 5rem;
+      padding: 8px;
+      font-size: 12px;
+      
+    }
+  }
